@@ -1,10 +1,10 @@
 package Day1;
 
-import java.io.IOException;
-import java.nio.file.Path;
 import java.util.Collections;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
+import java.nio.file.Path;
 import java.util.List;
 
 
@@ -21,7 +21,7 @@ public class Day1
 
         for (String line : lines)
         {
-            // a separate elf is distinguished by a blank line
+            // A separate elf is distinguished by a blank line
             // so if there's a blank line create a new elf
             if (line.trim().isEmpty()) {
                 calories.add(new ArrayList<>());
@@ -32,7 +32,7 @@ public class Day1
             calories.get(calories.size() - 1).add(caloriesInt);
         }
 
-        // the total number of calories per elf
+        // The total number of calories per elf
         ArrayList<Integer> caloriesAdded = new ArrayList<>();
 
         for (ArrayList<Integer> elf : calories) {
