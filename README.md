@@ -3,4 +3,4 @@ These are my solutions to Advent of Code 2022. They may not be the best solution
 
 # Contributing
 
-Because this repository is made to log my progress in Advent of Code 2022, pull requests to improve code for solutions or pull requests to add solutions will not be welcome.
+Because this repository is made to log my progress in Advent of Code 2022, pull requests to improve code or to add solutions are not welcome.
